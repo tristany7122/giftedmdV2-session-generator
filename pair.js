@@ -57,25 +57,15 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-*_Pair Code Connected by Gifted Tech_*
-*_Made With 🤍_*
-______________________________________
-╔════◇
-║ *『 WOW YOU CHOOSEN GIFTED-MDv2 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
-╚══════════════════════╝
-╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@giftedtechnexus_
-║❒ *Owner:* _https://wa.me/message/NHCZC5DSOEUXB1_
-║❒ *Repo:* _https://github.com/Giftedmaurice/gifted-mdV2_
-║❒ *WaGroup:* _https://chat.whatsapp.com/L0ctUUVLlsrFYwBHApKfew_
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o_
-║❒ *Plugins:* _https://github.com/Giftedmaurice/gifted-bot-md-plugins_
-╚══════════════════════╝ 
-_____________________________________
+> Do not share your session id with anyone.
 
-_Don't Forget To Give Star To My Repo_`
+ *Thanks for using Queen Elisa 🚩* 
+
+Dont forget to fork the repo ⬇️
+
+https://github.com/tristany7122/QUEEN-ELISA-MD
+
+> *© _ᴘᴏᴡᴇʀᴇᴅ ʙʏ Tristan_*`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
 
